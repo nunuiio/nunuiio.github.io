@@ -143,7 +143,7 @@ body {
   padding: 4px 0;
   position: relative;
 }
-.main-nav li:after {
+.main-nav li:first-child {
   font-weight: bold;
 }
 
