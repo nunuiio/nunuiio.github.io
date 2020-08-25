@@ -143,6 +143,9 @@ body {
   padding: 4px 0;
   position: relative;
 }
+.main-nav li:after {
+  font-weight: bold;
+}
 
 .main-nav-01 {
   float: left;
