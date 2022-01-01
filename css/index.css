@@ -732,7 +732,9 @@ body {
   color: red;
 }
 
-.menu-li.on a::before {
+
+
+.main-nav li.on a::after {
     display: block;
   width: 4px;
   height: 4px;
