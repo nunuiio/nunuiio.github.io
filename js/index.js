@@ -33,12 +33,12 @@ $('.close').click(function () {
 //   $('.main-nav li a[menu-index!=' + index + ']').removeClass('on');
 // });
 
-$(document).ready(function(){
-  $('.main-nav li a').each(function (index) {
-    $(this).attr('menu-index', index);
-  }).click(function(){
-    var index = $(this).attr('menu-index');
-    $('.main-nav li a[menu-index=' + index + ']').addClass('on');
-    $('.main-nav li a[menu-index!=' + index + ']').removeClass('on');
-  });
-});
+// $(document).ready(function(){
+//   $('.main-nav li a').each(function (index) {
+//     $(this).attr('menu-index', index);
+//   }).click(function(){
+//     var index = $(this).attr('menu-index');
+//     $('.main-nav li a[menu-index=' + index + ']').addClass('on');
+//     $('.main-nav li a[menu-index!=' + index + ']').removeClass('on');
+//   });
+// });

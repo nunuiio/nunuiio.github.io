@@ -715,7 +715,7 @@ body {
 }
 
 
-.main-nav li a::after
+/* .main-nav li a::after
 {
   display: block;
   width: 4px;
@@ -729,10 +729,30 @@ body {
   margin: 5px;
   line-height: 1.0em;
  
+} */
+
+
+
+
+
+.main-nav li a::before {
+  display: none;
+
 }
 
-.on {
+.main-nav li a.on::before {
   display: block;
+  width: 4px;
+  height: 4px;
+  -moz-border-radius: 2.0px;
+  -webkit-border-radius: 2.0px;
+  border-radius: 2.0px;
+  background-color: #000;
+  position: absolute;
+  left: -1.0em;
+  margin: 5px;
+  line-height: 1.0em;
+
 }
 
 /*** resonsive ***/
