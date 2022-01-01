@@ -732,6 +732,13 @@ body {
   color: red;
 }
 
+
+.menu-li a::focus {
+
+   color: green;
+}
+
+
 /*** resonsive ***/
 
 @media screen and  ( max-width: 1366px) {

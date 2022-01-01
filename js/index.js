@@ -26,6 +26,8 @@ $('.close').click(function(){
 //     $(".main-nav li a").removeClass()
 //     $(this).addClass('on')
 // })
+
+
 $('.main-nav li a').each(function(index){
   $(this).attr('menu-index', index);
 }).click(function(){
@@ -33,3 +35,4 @@ $('.main-nav li a').each(function(index){
   $('.main-nav li a[menu-index=' + index + ']').addClass('on');
   $('.main-nav li a[menu-index!=' + index + ']').removeClass('on');
 });
+
