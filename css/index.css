@@ -738,12 +738,12 @@ body {
   position: relative;
 } */
 
-.main-nav li::before {
+.main-nav li a::before {
   display: none;
 
 }
 
-.main-nav li.on::before {
+.main-nav li a::after.on {
   display: block;
 
 
