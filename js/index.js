@@ -23,5 +23,6 @@ $('.close').click(function(){
 })
 
 $(".main-nav li a").click(function(){
-    $(this).toggleClass('navidot')
+    $(".main-nav li a").removeClass()
+    $(this).addClass('on')
 })
