@@ -21,3 +21,7 @@ $('.close').click(function(){
   $('.close').removeClass('active')
   $('.open').removeClass('active')
 })
+
+$(".main-nav li a").click(function(){
+    $(this).addClass('navidot')
+})

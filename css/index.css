@@ -28,7 +28,6 @@ tr,
 th {
   margin: 0;
   padding: 0;
-  border: none;
 }
 
 ul {
@@ -714,6 +713,23 @@ body {
 .open.active {
   display: none;
 }
+
+
+.navidot
+{
+  display: block;
+  width: 4px;
+  height: 4px;
+  -moz-border-radius: 2.0px;
+  -webkit-border-radius: 2.0px;
+  border-radius: 2.0px;
+  background-color: #000;
+  position: absolute;
+  left: -1.0em;
+  margin: 5px;
+  line-height: 1.0em;
+}
+
 /*** resonsive ***/
 
 @media screen and  ( max-width: 1366px) {
@@ -947,6 +963,7 @@ body {
     width: 800px;
   }
  }
+ 
 @media screen and ( max-width: 480px ) {
   .item h1 {
     font-size: 18px;  
