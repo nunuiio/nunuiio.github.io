@@ -715,9 +715,9 @@ body {
 }
 
 
-.hide
+.main-nav li a::after
 {
-  display: none;
+  display: block;
   width: 4px;
   height: 4px;
   -moz-border-radius: 2.0px;
