@@ -735,12 +735,12 @@ body {
 
 
 
-.main-nav li a::before {
+.main-nav li::before {
   display: none;
 
 }
 
-.main-nav li a.on::before {
+.main-nav li.on::before {
   display: block;
 
 
