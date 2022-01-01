@@ -733,12 +733,6 @@ body {
 }
 
 
-.menu-li a::visited {
-
-   color: green;
-}
-
-
 /*** resonsive ***/
 
 @media screen and  ( max-width: 1366px) {
