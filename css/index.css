@@ -739,11 +739,11 @@ body {
 } */
 
 
-.main-nav li {
+.main-nav li a{
   position: relative;
 }
 
-.main-nav li::after {
+.main-nav li a::after {
   display: block;
   width: 4px;
   height: 4px;
