@@ -715,27 +715,9 @@ body {
 }
 
 
-.on
+.hide
 {
-  /* display: block;
-  width: 4px;
-  height: 4px;
-  -moz-border-radius: 2.0px;
-  -webkit-border-radius: 2.0px;
-  border-radius: 2.0px;
-  background-color: #000;
-  position: absolute;
-  left: -1.0em;
-  margin: 5px;
-  line-height: 1.0em; */
-  font-weight: bold;
-  color: red;
-}
-
-
-
-.main-nav li.on a::after {
-    display: block;
+  display: none;
   width: 4px;
   height: 4px;
   -moz-border-radius: 2.0px;
@@ -746,8 +728,13 @@ body {
   left: -1.0em;
   margin: 5px;
   line-height: 1.0em;
-
+ red;
 }
+
+.on {
+  display: block;
+}
+
 /*** resonsive ***/
 
 @media screen and  ( max-width: 1366px) {
