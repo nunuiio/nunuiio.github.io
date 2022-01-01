@@ -717,7 +717,7 @@ body {
 
 .on
 {
-  display: block;
+  /* display: block;
   width: 4px;
   height: 4px;
   -moz-border-radius: 2.0px;
@@ -727,7 +727,9 @@ body {
   position: absolute;
   left: -1.0em;
   margin: 5px;
-  line-height: 1.0em;
+  line-height: 1.0em; */
+  font-weight: bold;
+  color: red;
 }
 
 /*** resonsive ***/
