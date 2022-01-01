@@ -741,6 +741,7 @@ body {
 }
 
 .main-nav li a.on::before {
+  display: block;
   width: 4px;
   height: 4px;
   -moz-border-radius: 2.0px;
