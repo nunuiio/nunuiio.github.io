@@ -733,7 +733,7 @@ body {
 }
 
 
-.menu-li a::focus {
+.menu-li a::visited {
 
    color: green;
 }
