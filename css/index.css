@@ -738,13 +738,9 @@ body {
   position: relative;
 } */
 
-/* 
-.main-nav li a{
-  position: relative;
-} */
-
 .main-nav li a::before {
-  display: block;
+  display: none;
+  content: '';  
   width: 4px;
   height: 4px;
   -moz-border-radius: 2.0px;
@@ -758,6 +754,10 @@ body {
 
 }
 
+.main-nav li a.on::before {
+  display: block;
+
+}
 
 /* .on {
   display: block;
