@@ -740,7 +740,7 @@ body {
 
 }
 
-.main-nav li.on::before {
+.main-nav li::before.on {
   display: block;
 
 
