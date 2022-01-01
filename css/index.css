@@ -734,13 +734,16 @@ body {
 
 
 
+.main-nav li a {
+  position: relative;
+}
 
 .main-nav li::before {
   display: none;
 
 }
 
-.main-nav li::before.on {
+.main-nav li.on::before {
   display: block;
 
 
