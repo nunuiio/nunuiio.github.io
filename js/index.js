@@ -22,7 +22,14 @@ $('.close').click(function(){
   $('.open').removeClass('active')
 })
 
-$(".main-nav li a").click(function(){
-    $(".main-nav li a").removeClass()
-    $(this).addClass('on')
-})
+// $(".main-nav li a").click(function(){
+//     $(".main-nav li a").removeClass()
+//     $(this).addClass('on')
+// })
+$('.main-nav li').each(function(index){
+  $(this).attr('menu-index', index);
+}).click(function(){
+  var index = $(this).attr('menu-index');
+  $('.menu[menu-index=' + index + ']').addClass('on');
+  $('.menu[menu-index!=' + index + ']').removeClass('on');
+});
