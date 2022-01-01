@@ -740,7 +740,7 @@ body {
 
 }
 
-.main-nav li a::before {
+.main-nav li a.on::before {
   width: 4px;
   height: 4px;
   -moz-border-radius: 2.0px;
