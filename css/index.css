@@ -144,9 +144,9 @@ body {
   position: relative;
 }
 
-.main-nav li:first-child {
+/* .main-nav li:first-child {
   font-weight: bold;
-}
+} */
 
 .main-nav-01 {
   float: left;
@@ -749,6 +749,7 @@ body {
   background-color: #000;
   position: absolute;
   left: -1.0em;
+  top: 25%;
   margin: 5px;
   line-height: 1.0em;
 
