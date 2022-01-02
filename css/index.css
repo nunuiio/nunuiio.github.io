@@ -775,6 +775,33 @@ body {
 
 } */
 
+
+
+.home-inner {
+  width: 100%;
+  height: 100%;
+}
+
+.home-inner-wrap {
+  height: 100vh;
+  width: 930px;
+  float: right;
+/*   border-left: 1px solid #000; */
+}
+
+.home-content {
+
+  margin: 100px 18px 0 18px;
+}
+.home-content-wrap {
+  width: 100%;
+}
+
+
+
+
+
+
 /*** resonsive ***/
 
 @media screen and  ( max-width: 1366px) {
