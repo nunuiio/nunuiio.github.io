@@ -45,7 +45,7 @@ $('.close').click(function () {
 
 
   		$(function(){
-			$('#slider-div').slick({
+			$('#slider-div div').slick({
 				slide: 'div',		//슬라이드 되어야 할 태그 ex) div, li 
 				infinite : true, 	//무한 반복 옵션	 
 				slidesToShow : 4,		// 한 화면에 보여질 컨텐츠 개수
