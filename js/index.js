@@ -44,7 +44,7 @@ $('.close').click(function () {
 // });
 
 
-  		$(function(){
+  		$(document).readey(function(){
 			$('#slider-div').slick({
 				slide: 'div',		//슬라이드 되어야 할 태그 ex) div, li 
 				infinite : true, 	//무한 반복 옵션	 
