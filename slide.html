@@ -46,7 +46,15 @@ $(window).ready(function(){
 	$('.home').addClass('on');
 });
 
-$('#slider-div div').slick();
+
+$('#slider-div div').slick({
+  dots: true,
+  infinite: true,
+  speed: 300,
+  slidesToShow: 1,
+  adaptiveHeight: true
+});
+			
 
   </script>
 </body>
