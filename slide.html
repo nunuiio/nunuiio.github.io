@@ -22,7 +22,7 @@
 
 <body>
   <div style="padding:300px 100px; background-color: skyblue;">
-    <div id="slider-div">
+    <div class="slider-div">
       <div>
         <img src="img/slide01.jpg" alt="">
       </div>
@@ -33,7 +33,7 @@
         <img src="img/slide03.jpg" alt="">
       </div>
     </div>
-     5
+     53
 </div>
   
   <script src="../js/page.spa.js"></script>
@@ -41,16 +41,12 @@
 
   <!-- <script src="./js/index.js"></script> -->
   <script>
-$(window).ready(function(){
-	$('.main-nav li a').removeClass('on');
-	$('.home').addClass('on');
-});
 
 
 
 
 $(function(){
-  $('#slider-div div').slick({
+  $('.slider-div').slick({
   dots: true,
   infinite: true,
   speed: 300,
