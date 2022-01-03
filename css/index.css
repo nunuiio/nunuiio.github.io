@@ -1105,4 +1105,10 @@ body {
     width: 360px;
     height: 70%;
   }
+  .home-inner-wrap {
+    width: 100%;
+    /* float: right; */
+  /*   border-left: 1px solid #000; */
+  }
+
 }  
